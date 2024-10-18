@@ -1,0 +1,101 @@
+.carousel-control-color {
+    color: white;
+}
+
+.carousel-control {
+    width: 15%;
+    opacity: 0.5;
+    transition: opacity .15s ease;
+}
+
+.carousel-control:hover {
+    opacity: 0.9;
+}
+
+.carousel-indicators {
+    width: 30px;
+    height: 3px;
+}
+
+.carousel-indicators li {
+    height: 10px;
+    margin-right: 3px;
+    opacity: 0.5;
+    transition: opacity .6s ease;
+}
+
+.carousel-indicators .active {
+    background-color: white;
+    opacity: 1;
+}
+
+.carousel-caption {
+    width: 70%;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: medium;
+    padding-top: 1.25rem;
+    padding-bottom: 1.25rem;
+    margin-bottom: 1.25rem;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    width: 2rem;
+}
+
+.carousel-control-prev-icon {
+    background-image: url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='white'><path d='M11.354 1.646a.5.5 0 0 1 0 .708L5.707 8l5.647 5.646a.5.5 0 0 1-.708.708l-6-6a.5.5 0 0 1 0-.708l6-6a.5.5 0 0 1 .708 0z'/></svg>");
+}
+
+.carousel-control-next-icon {
+    background-image: url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='white'><path d='M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z'/></svg>");
+}
+
+.carousel-item {
+    transition: transform .6s ease-in-out;
+}
+
+/* .hw6-container{
+    padding: 2rem;   
+}
+.slider-wrapper{
+    position: relative;
+    max-width: 48rem;
+    margin: 0 auto;
+}
+.slider{
+    display: flex;
+    aspect-ratio: 16/9;
+    overflow-x: auto;
+    scroll-snap-type:x mandatory;
+    scroll-behavior: smooth;
+    box-shadow: 0 1.5rem 3rem -0.75rem hsla(0,0%,0%,0.25);
+    border-radius: 0.5rem;
+    overflow-x: hidden;
+}
+.slider img {
+    flex: 1 0 100%;
+   scroll-snap-align: start; 
+   object-fit: cover;
+}
+.slider-nav {
+    display: flex;
+    column-gap: 1rem;
+    position: absolute;
+    bottom: auto;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 1;
+}
+.slider-nav a{
+    width:1rem;
+    height:1rem;
+    border-radius: 50%;
+    background-color: #034903;
+    opacity: 0.75;
+    transition: opacity ease 250ms;
+}
+.slider-nav a:hover {
+    opacity: 1;
+} */

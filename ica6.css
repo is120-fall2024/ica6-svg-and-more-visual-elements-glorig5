@@ -155,7 +155,6 @@ section .iframe {
 }
 
 .hw6-container {
-  height: 100vh;
   background-color: var(--secondary);
 }
 
